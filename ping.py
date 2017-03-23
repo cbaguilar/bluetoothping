@@ -7,7 +7,7 @@ FILENAME = raw_input("What antenna are you testing? ")
 #ADDRESS = raw_input("fc:58:fa:13:2f:b8")
 
 file = []
-for x in range(0,5):
+for x in range(0,6):
 	raw_input("please turn " +str(x*60)+"degrees")
 	row = []
 	row.append(x*60)
